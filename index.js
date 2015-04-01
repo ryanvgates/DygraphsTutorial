@@ -4,9 +4,8 @@
     document.getElementById("graphdiv"),
 
     // CSV or path to a CSV file.
-    "Fort Lauderdale Data Snapshot.csv",
+    "Fort Lauderdale Data Snapshot-Reoriented.csv",
 	{
-		title: 'Fort Lauderdale Budget Data',
-		
+		title: 'Fort Lauderdale Budget Data'
 	}
   );
