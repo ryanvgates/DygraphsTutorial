@@ -11,17 +11,15 @@
         height: 480,
         axisLabelWidth: 100,
         maxNumberWidth: 20,
-        axis: {
+        axes: {
             y: {
                 axisLabelFormatter: function(x) {
-                    return '' + x;
+                    return numeral(x).format('($ 0.00 a)');
                 },
-                axisValueFormatter: function(x) {
-                    return '' + x;
+                valueFormatter: function(x) {
+                    return numeral(x).format('($ 0.00 a)');
                 },
             }
         }
-        
-
 	}
   );
