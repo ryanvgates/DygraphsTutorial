@@ -11,6 +11,8 @@
         height: 480,
         axisLabelWidth: 100,
         maxNumberWidth: 20,
+        labelsDiv: "graphdivlegend",
+        //hideOverlayOnMouseOut: false,
         axes: {
             y: {
                 axisLabelFormatter: function(x) {
