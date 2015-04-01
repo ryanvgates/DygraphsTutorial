@@ -1,0 +1,11 @@
+#graphdivlegend {
+    float: right;
+}
+
+#graphdiv {
+    float: left;
+}
+
+#graphdivlegend > span {
+    display: block;
+}
