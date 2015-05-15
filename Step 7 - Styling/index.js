@@ -10,7 +10,6 @@
         width: 800,
         height: 480,
         axisLabelWidth: 100,
-        hideOverlayOnMouseOut: false,
         labelsDiv: "graphdivlegend",
         axes: {
             y: {
